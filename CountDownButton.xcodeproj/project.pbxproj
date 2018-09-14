@@ -12,6 +12,10 @@
 		790CFAFF21492566009F1E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CFAFD21492566009F1E05 /* Main.storyboard */; };
 		790CFB0121492568009F1E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CFB0021492568009F1E05 /* Assets.xcassets */; };
 		790CFB0421492568009F1E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CFB0221492568009F1E05 /* LaunchScreen.storyboard */; };
+		790CFB0C214926BF009F1E05 /* QBCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CFB0B214926BE009F1E05 /* QBCountDownButton.swift */; };
+		7935F900214A803600175ED6 /* Timer+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F8FF214A803600175ED6 /* Timer+Extention.swift */; };
+		7935F902214B506600175ED6 /* ViewControllerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F901214B506600175ED6 /* ViewControllerBtn.swift */; };
+		7935F904214B52E800175ED6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F903214B52E800175ED6 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		790CFB0021492568009F1E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790CFB0321492568009F1E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790CFB0521492568009F1E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790CFB0B214926BE009F1E05 /* QBCountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QBCountDownButton.swift; sourceTree = "<group>"; };
+		7935F8FF214A803600175ED6 /* Timer+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+Extention.swift"; sourceTree = "<group>"; };
+		7935F901214B506600175ED6 /* ViewControllerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBtn.swift; sourceTree = "<group>"; };
+		7935F903214B52E800175ED6 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				790CFAF921492566009F1E05 /* AppDelegate.swift */,
 				790CFAFB21492566009F1E05 /* ViewController.swift */,
+				7935F901214B506600175ED6 /* ViewControllerBtn.swift */,
+				7935F903214B52E800175ED6 /* NextViewController.swift */,
+				790CFB0B214926BE009F1E05 /* QBCountDownButton.swift */,
+				7935F8FF214A803600175ED6 /* Timer+Extention.swift */,
 				790CFAFD21492566009F1E05 /* Main.storyboard */,
 				790CFB0021492568009F1E05 /* Assets.xcassets */,
 				790CFB0221492568009F1E05 /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790CFB0C214926BF009F1E05 /* QBCountDownButton.swift in Sources */,
+				7935F904214B52E800175ED6 /* NextViewController.swift in Sources */,
 				790CFAFC21492566009F1E05 /* ViewController.swift in Sources */,
+				7935F900214A803600175ED6 /* Timer+Extention.swift in Sources */,
+				7935F902214B506600175ED6 /* ViewControllerBtn.swift in Sources */,
 				790CFAFA21492566009F1E05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CountDownButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CountDownButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
