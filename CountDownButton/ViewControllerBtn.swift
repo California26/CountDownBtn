@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewControllerBtn: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "添加倒计时"
@@ -27,6 +27,7 @@ class ViewControllerBtn: UIViewController {
         getCode.setTitleColor(UIColor.gray, for: .normal)
         getCode.setTitle("获取验证码", for: .normal)
         view.addSubview(getCode)
+        
     }
 
     
